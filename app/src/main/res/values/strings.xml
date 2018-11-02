@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dorm Key Dispenser</string>
+    <string name="light_val">Light level value: %.2f</string>
+    <string name="sound_val">Sound level value: %.2f</string>
+    <string name="auth_method">Authentication method: %s</string>
+    <string name="image_content">Key icon</string>
+</resources>
