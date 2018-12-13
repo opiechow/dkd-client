@@ -4,4 +4,9 @@
     <string name="sound_val">Sound level value: %.2f</string>
     <string name="auth_method">Authentication method: %s</string>
     <string name="image_content">Key icon</string>
+    <string name="password_prompt">Enter your password:</string>
+    <string name="password_submit">Submit password</string>
+    <string name="start_record">Press the button to record three seconds of your secret passphrase</string>
+    <string name="record_btn">Record</string>
+    <string name="reset">Reset</string>
 </resources>

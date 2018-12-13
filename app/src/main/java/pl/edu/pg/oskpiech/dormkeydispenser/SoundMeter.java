@@ -1,4 +1,4 @@
-package oskpiech.pg.edu.pl.dormkeydispenser;
+package pl.edu.pg.oskpiech.dormkeydispenser;
 
 import android.media.MediaRecorder;
 
@@ -7,13 +7,13 @@ import java.io.IOException;
 public class SoundMeter {
     private MediaRecorder mRecorder = null;
 
-    public void start() {
+    public void start(String filename) {
         if (mRecorder == null) {
             mRecorder = new MediaRecorder();
             mRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
             mRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
             mRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
-            mRecorder.setOutputFile("/dev/null");
+            mRecorder.setOutputFile(filename);
             try {
                 mRecorder.prepare();
             } catch (IOException e) {

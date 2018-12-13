@@ -1,4 +1,4 @@
-package oskpiech.pg.edu.pl.dormkeydispenser;
+package pl.edu.pg.oskpiech.dormkeydispenser;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

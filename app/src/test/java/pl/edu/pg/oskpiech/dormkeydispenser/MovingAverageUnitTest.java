@@ -1,4 +1,4 @@
-package oskpiech.pg.edu.pl.dormkeydispenser;
+package pl.edu.pg.oskpiech.dormkeydispenser;
 
 import org.junit.Test;
 
